@@ -1,9 +1,11 @@
 import React from 'react'
 import Cell from './Cell'
+import css from '../styles/grid.module.css'
 
 const Grid = () => {
     return (
-        <div>
+        <div className={css.grid}>
+            <Cell />
             <Cell />
             <Cell />
             <Cell />

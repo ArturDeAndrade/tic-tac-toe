@@ -1,8 +1,9 @@
 import React from 'react'
+import css from '../styles/cell.module.css'
 
 const Cell = () => {
     return (
-        <div></div>
+        <div className={css.cell}></div>
     )
 }
 
