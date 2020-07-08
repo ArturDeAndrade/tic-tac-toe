@@ -1,8 +1,28 @@
 .cell {
     width: 6rem;
     height: 6rem;
-    border: 1px solid var(--outline);
+    border: 1px solid var(--primary);
     background-color: var(--bg);
+}
+
+button {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--bg);
+}
+
+button.x {
+    outline: none;
+    color: #21f;
+}
+
+button.o {
+    outline: none;
+    color: #f12;
+}
+
+.mark {
+    font-size: 72px;
 }
 
 /* Removing the outer borders */
